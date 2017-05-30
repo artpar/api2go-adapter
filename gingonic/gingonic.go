@@ -5,7 +5,7 @@ import (
 
 	gin "gopkg.in/gin-gonic/gin.v1"
 
-	"github.com/manyminds/api2go/routing"
+	"github.com/artpar/api2go/routing"
 )
 
 type ginRouter struct {

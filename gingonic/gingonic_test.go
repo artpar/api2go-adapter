@@ -9,12 +9,12 @@ import (
 
 	gin "gopkg.in/gin-gonic/gin.v1"
 
-	"github.com/manyminds/api2go"
-	. "github.com/manyminds/api2go-adapter/gingonic"
-	"github.com/manyminds/api2go/examples/model"
-	"github.com/manyminds/api2go/examples/resource"
-	"github.com/manyminds/api2go/examples/storage"
-	"github.com/manyminds/api2go/routing"
+	"github.com/artpar/api2go"
+	. "github.com/artpar/api2go-adapter/gingonic"
+	"github.com/artpar/api2go/examples/model"
+	"github.com/artpar/api2go/examples/resource"
+	"github.com/artpar/api2go/examples/storage"
+	"github.com/artpar/api2go/routing"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
