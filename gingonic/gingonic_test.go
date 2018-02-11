@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	gin "gopkg.in/gin-gonic/gin.v1"
+	gin "github.com/gin-gonic/gin"
 
 	"github.com/artpar/api2go"
 	. "github.com/artpar/api2go-adapter/gingonic"
