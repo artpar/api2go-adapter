@@ -5,7 +5,7 @@ import (
 
 	gin "github.com/gin-gonic/gin"
 
-	"github.com/artpar/api2go/routing"
+	"github.com/artpar/api2go/v2/routing"
 )
 
 type ginRouter struct {
@@ -29,7 +29,7 @@ func (g ginRouter) Handle(protocol, route string, handler routing.HandlerFunc) {
 	g.router.Handle(protocol, route, wrappedCallback)
 }
 
-//New creates a new api2go router to use with the gin framework
+// New creates a new api2go router to use with the gin framework
 func New(g *gin.Engine) routing.Routeable {
 	return &ginRouter{router: g}
 }
